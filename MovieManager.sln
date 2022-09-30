@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManager.Server", "Server\MovieManager.Server.csproj", "{4CE54F27-4ADA-415A-AE67-A4B75F3AC121}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManager.Shared", "Shared\MovieManager.Shared.csproj", "{396F5DCA-42FC-48C5-8CBD-F186520CACC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B83A12D-2EB2-4B74-98EA-0B210A2218A0}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitlab-ci.yml = .gitlab-ci.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE54F27-4ADA-415A-AE67-A4B75F3AC121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE54F27-4ADA-415A-AE67-A4B75F3AC121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE54F27-4ADA-415A-AE67-A4B75F3AC121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE54F27-4ADA-415A-AE67-A4B75F3AC121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396F5DCA-42FC-48C5-8CBD-F186520CACC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396F5DCA-42FC-48C5-8CBD-F186520CACC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396F5DCA-42FC-48C5-8CBD-F186520CACC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396F5DCA-42FC-48C5-8CBD-F186520CACC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CE6FE10-7CF9-4022-BACD-BD411FEB5E5A}
+	EndGlobalSection
+EndGlobal
